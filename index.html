@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise and Sunset Times</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="newimg/favicaon.png"> 
+</head>
+<body>
+    <header>
+        <h1>Sunrise and Sunset Times</h1> 
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="locationInput" placeholder="Enter Location">
+            <button id="searchButton"> 🔍 Search</button>
+            <button id="geoButton"> 📍 Use My Location</button>
+        </section>
+
+        <section id="placeholder">
+            <p>Enter a location to see sunrise and sunset times.</p>
+        </section>
+
+        <section id="results" class="hidden">
+            <div id="resultGifContainer">
+            </div>
+            <div id="resultContent">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by SunriseSunset.io</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
