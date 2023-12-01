@@ -96,8 +96,8 @@ function updateUI(dataToday, dataTomorrow) {
                 <h3>Today's Data</h3>
                 <p>Sunrise: ${dataToday.sunrise}</p>
                 <p>Sunset: ${dataToday.sunset}</p>
-                <p>Dawn: ${dataToday.civil_twilight_begin}</p>
-                <p>Dusk: ${dataToday.civil_twilight_end}</p>
+                <p>Dawn: ${dataToday.dawn}</p>
+                <p>Dusk: ${dataToday.dusk}</p>
                 <p>Day Length: ${dataToday.day_length}</p>
                 <p>Solar Noon: ${dataToday.solar_noon}</p>
                 <p>Timezone: ${dataToday.timezone} </p>
@@ -106,8 +106,8 @@ function updateUI(dataToday, dataTomorrow) {
                 <h3>Tomorrow's Data</h3>
                 <p>Sunrise: ${dataTomorrow.sunrise}</p>
                 <p>Sunset: ${dataTomorrow.sunset}</p>
-                <p>Dawn: ${dataTomorrow.civil_twilight_begin}</p>
-                <p>Dusk: ${dataTomorrow.civil_twilight_end}</p>
+                <p>Dawn: ${dataTomorrow.dawn}</p>
+                <p>Dusk: ${dataTomorrow.dusk}</p>
                 <p>Day Length: ${dataTomorrow.day_length}</p>
                 <p>Solar Noon: ${dataTomorrow.solar_noon}</p>
                 <p>Timezone: ${dataTomorrow.timezone} </p>
